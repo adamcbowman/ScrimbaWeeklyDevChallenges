@@ -1,0 +1,55 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/*
+DESCRIPTION:
+
+You challenge is clone a course card from Scrimba's homepage.
+
+For the layout, you can go grid or flex.
+
+Some extra things to look into:
+ - logical properties for margin and padding
+ - the new color syntax (for RGB and HSL)
+ 
+ Stretch goals: 
+  - Add those fun bubble animations!
+  - Create a set of cards where the colors (and other things?) are updated through the use of custom properties
+
+*/
+
+/* Write your code here 👇 */
+
+body {
+  font-family: 'Karla', sans-serif;
+  background: lightgrey;
+}
+
+.card {
+  background: #e7f1ea;
+  width: 300px;
+  margin: 0 auto;
+  border: 2px solid hotpink 
+}
+
+.card-content {
+background: #fff;
+}
+
+.card-content-primary, 
+.card-content-secondary {
+  display: flex;
+justify-content: space-between;
+}
+
+.card-hero, 
+.card-content {
+  padding: 0 0.5em;
+}
+.teacher-image {
+border-radius: 50%;
+width: 100px;
+height: 100px;
+}
